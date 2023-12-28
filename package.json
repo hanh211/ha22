@@ -2,7 +2,7 @@
   "name": "ha22",
   "version": "1.0.0",
   "description": "",
-  "main": "a.js",
+  "main": "Server.js",
   "directories": {
     "doc": "docs"
   },
