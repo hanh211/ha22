@@ -5,14 +5,14 @@
     <title></title>
   </head>
   <body>
-    <input id="detect1" value="chao" required>
+    <input id="detect1" value="ok" required>
     <button id="detect">ok</button>
     <script>
      let detectButton = document.getElementById("detect");
      let detect2 = document.getElementById("detect1");
      detectButton.addEventListener("click", e => {
        // fetch(`http://localhost:3000/ap`)
-       fetch(`http://hanh211.github.io/ha22/ap`)
+       fetch("http://hanh211.github.io/ha22/ap")
           .then(response => {
             return response.json();
           })
